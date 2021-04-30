@@ -1,16 +1,10 @@
-# convite
+# Projeto Flutter com clean architecture + API Rest com ExpressJS + Serverless (Firebase)
 
-A new Flutter project.
+Este projeto pessoal consiste em um sistema de convites.
+O sistema permite ao administrador distribuir links de convite a determinados usuários (e-mails).
+Uma vez que este usuário se cadastre no APP -e tenha um convite na base de dados do Firebase CloudFirestore-, ele pode:
+ * listar seus convites já distribuídos
+ * visualizar a quantidade de convites que pode enviar
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# A API foi construída com ExpressJS sob NodeJS
+A distribuição da API foi feita no Firebase Hosting e consta na pasta cloud_functions
