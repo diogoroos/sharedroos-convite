@@ -7,4 +7,4 @@ Uma vez que este usuário se cadastre no APP -e tenha um convite na base de dado
  * visualizar a quantidade de convites que pode enviar
 
 # A API foi construída com ExpressJS sob NodeJS
-A distribuição da API foi feita no Firebase Hosting e consta na pasta cloud_functions
+A distribuição da API foi feita no Firebase Hosting e consta na pasta cloudfunctions
